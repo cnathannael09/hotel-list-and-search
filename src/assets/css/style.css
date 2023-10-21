@@ -1,0 +1,25 @@
+@media only screen and (min-width: 992px){
+  .is-desktop{
+    display:block
+  }
+  .is-mobile,.is-tablet{
+    display:none
+  }
+}
+@media only screen and (min-width: 768px)and (max-width: 991px){
+  .is-tablet{
+    display:block
+  }
+  .is-mobile,.is-desktop{
+    display:none
+  }
+}
+@media only screen and (min-width: 0px)and (max-width: 767px){
+  .is-mobile{
+    display:block
+  }
+
+  .is-tablet,.is-desktop{
+    display:none
+  }
+}
